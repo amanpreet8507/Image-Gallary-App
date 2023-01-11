@@ -31,3 +31,25 @@ header nav ul li {
     border-radius: 10px;
     cursor: pointer;
 }
+
+footer {
+    background-color: black;
+    padding: 20px;
+    margin: 20px;
+}
+
+footer nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+footer nav ul li {
+    border: 1px solid rgb(red, green, blue);
+    background-color: yellow;
+    padding: 10px;
+    color: blue;
+    border-radius: 10px;
+    cursor: pointer;
+}
